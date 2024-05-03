@@ -1,0 +1,33 @@
+.home-container {
+    position: relative;
+  }
+  
+  .custom-shape-divider-top-1714454869 {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    overflow: hidden;
+    line-height: 0;
+    transform: rotate(180deg);
+  }
+  
+  .custom-shape-divider-top-1714454869 svg {
+    position: relative;
+    display: block;
+    width: calc(174% + 1.3px);
+    height: 279px;
+  }
+  
+  .custom-shape-divider-top-1714454869 .shape-fill {
+    fill: #BBCDE5;
+  }
+  
+  .text-container {
+    position: absolute;
+    z-index: 1; /* Ensure text appears above the SVG */
+    /* display: flex; 
+    flex-direction: row;
+    justify-content:space-between;  */
+    width:100%;
+  }
